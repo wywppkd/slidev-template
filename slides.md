@@ -1,35 +1,27 @@
 ---
-# try also 'default' to start simple
 theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
-# use UnoCSS (experimental)
 css: unocss
+title: 第一页
 ---
 
-# Welcome to Slidev
+# 第一页
 
-Presentation slides for developers
+副标题
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+    下一页 <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
@@ -44,14 +36,14 @@ Presentation slides for developers
 </div>
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+这里的注释文案在 Presenter Mode 下会展示给主持人
 -->
 
 ---
 
-# What is Slidev?
+# The Second Page
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev 有以下功能
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
@@ -64,10 +56,10 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 <br>
 <br>
 
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+更多 [Why Slidev?](https://sli.dev/guide/why)
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
+<style> 用来覆盖当前页样式
 Learn more: https://sli.dev/guide/syntax#embedded-styles
 -->
 
@@ -85,7 +77,7 @@ h1 {
 
 ---
 
-# Navigation
+# 导航快捷键
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
@@ -93,10 +85,10 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 |     |     |
 | --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+| <kbd>right</kbd> / <kbd>space</kbd>| 下一个动画或页 |
+| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | 上一个动画或页 |
+| <kbd>up</kbd> | 上一页 |
+| <kbd>down</kbd> | 下一页 |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
